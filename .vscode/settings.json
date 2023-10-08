@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.fontFamily": "'Source Code Pro for Powerline', 'Hack Nerd Font'",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 150,
+  "prettier.semi": false,
+  "explorer.compactFolders": false,
+  "window.zoomLevel": 1.1
+}
