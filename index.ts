@@ -11,6 +11,9 @@ async function main() {
   //   },
   // })
   // console.log(user)
+  // Get all users
+  // const users = await prisma.user.findMany()
+  // console.log(users)
 }
 
 main()
