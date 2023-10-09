@@ -12,7 +12,11 @@ async function main() {
   // })
   // console.log(user)
   // Get all users
-  // const users = await prisma.user.findMany()
+  // const users = await prisma.user.findMany({
+  //   include: {
+  //     articles: true,
+  //   },
+  // })
   // console.log(users)
   // Create an article and associate it with user
   // const article = await prisma.article.create({
@@ -30,6 +34,33 @@ async function main() {
   // Get all articles
   // const articles = await prisma.article.findMany()
   // console.log(articles)
+  // Create user and article and associate them
+  // const user = await prisma.user.create({
+  //   data: {
+  //     name: 'Sara Smith',
+  //     email: 'sara@gmail.com',
+  //     articles: {
+  //       create: {
+  //         title: "Sara's First Article",
+  //         body: "This is Sara's first article",
+  //       },
+  //     },
+  //   },
+  // })
+  // console.log(user)
+  // Create another article
+  // const article = await prisma.article.create({
+  //   data: {
+  //     title: 'Sample Article',
+  //     body: 'This is a sample article',
+  //     author: {
+  //       connect: {
+  //         id: 2,
+  //       },
+  //     },
+  //   },
+  // })
+  // console.log(article)
 }
 
 main()
